@@ -3,7 +3,7 @@
   padding: 20px;
   padding-left: 30px;
   margin: 15px;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 30%;    
 }
 
@@ -19,7 +19,7 @@
 }
 
   .btn{
-    border-radius: 20px
+    border-radius:20px;
   }
   
   .content{
