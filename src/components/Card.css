@@ -1,0 +1,43 @@
+.card {
+  border: 1px solid black;
+  padding: 20px;
+  padding-left: 30px;
+  margin: 15px;
+  border-radius: 20px;
+  width: 40%;    
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 80px;
+    margin-bottom: 10%;
+  }
+}
+
+  .btn{
+    border-radius: 20px
+  }
+  
+  .content{
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-small;
+  }
+  .plan{
+    font-size: xx-small;
+    font-weight:600
+    
+   }
+   .blurred {
+    filter: blur(2px);
+    pointer-events: none
+   }
+   .btn-blurred{
+  background-color: #579eee;
+
+   }
+   
