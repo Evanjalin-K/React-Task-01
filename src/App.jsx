@@ -10,7 +10,7 @@ const App = () => {
       listData: [
         {title:"Single User", completed:true },
         {title:"50GB Storage", completed:true},
-      {title:"Unlinited Public Projects",completed:true},
+      {title:"Unlimited Public Projects",completed:true},
         {title:"Community Access", completed:true },
       {title:"Unlimited Private Project", completed:false},
         {title:"Dedicated Phone Support", completed:false},
@@ -63,5 +63,5 @@ return (
        )
 }
 
-export default App
+export default App;
 

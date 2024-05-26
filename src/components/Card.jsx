@@ -14,7 +14,7 @@ const allItemCompleted = props.data.listData.every(list => list.completed)
         {
         props.data.listData.map((list, index) => (
        <p key={index} className={list.completed ? "" : "text-muted"}>
-        {list.completed ? "✔" : "✖"} {list.title} </p>
+        {list.completed ? " ✔ " : " ✖ "} {list.title} </p>
 
 )
   )     
@@ -26,4 +26,4 @@ const allItemCompleted = props.data.listData.every(list => list.completed)
   )
 }
 
-export default Card
+export default Card;
