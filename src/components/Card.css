@@ -12,7 +12,7 @@
     width: 70%;
     justify-content: center;
     text-align: center;
-    margin-left: 80px;
+    margin-left: 65px;
     margin-right: 80px;
     margin-bottom: 10%;
   }
@@ -20,6 +20,9 @@
 
   .btn{
     border-radius:20px;
+    font-size: xx-small;
+    font-weight: 600;
+    padding: 10px;
   }
   
   .content{

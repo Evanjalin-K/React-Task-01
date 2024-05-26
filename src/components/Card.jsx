@@ -21,7 +21,7 @@ const allItemCompleted = props.data.listData.every(list => list.completed)
   }    
     </div>
     
-    <button className={`btn btn-primary ${allItemCompleted ? "" : "btn-blurred" }`}>Button</button>
+    <button className={`btn btn-primary ${allItemCompleted ? "" : "btn-blurred" }`}>BUTTON</button>
     </div>
   )
 }
