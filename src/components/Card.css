@@ -32,8 +32,10 @@
   }
   .plan{
     font-size: xx-small;
-    font-weight:bold
-    
+    font-weight:bold;
+    text-shadow: whitesmoke;
+
+     
    }
    .blurred {
     filter: blur(2px);
@@ -41,6 +43,14 @@
    }
    .btn-blurred{
   background-color: #579eee;
+
+   }
+   .textblurred{
+    color: rgba(0, 0, 0, 0.3);
+   }
+   
+   hr{
+    color: rgba(0, 0, 0, 0.3);
 
    }
    
